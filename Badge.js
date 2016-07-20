@@ -25,9 +25,12 @@ const styles = StyleSheet.create({
   text: {
     paddingVertical: 2,
     paddingHorizontal: 4,
-    color: '#fff',
+    color: '#007aff',
+    fontFamily: '.HelveticaNeueInterface-MediumP4',
     backgroundColor: 'transparent',
     fontSize: 14,
+    textAlign: 'center',         //for android
+    textAlignVertical: 'center', //for android
   },
 })
 
