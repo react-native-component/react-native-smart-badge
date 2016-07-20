@@ -46,18 +46,18 @@ export default class NumberBadge extends Component {
   render() {
     return (
       <View style={{marginTop: 20 + 44, flex: 1, justifyContent: 'center', alignItems: 'center', }}>
-        <Badge>
-          {this.state.num1}
-        </Badge>
-        <Badge style={{marginTop: 10,}}>
-          {this.state.num2}
-        </Badge>
-        <Badge style={{marginTop: 10,}}>
-          {this.state.num3}
-        </Badge>
+          <Badge textStyle={{color: '#fff',}}>
+            {this.state.num1}
+          </Badge>
+          <Badge textStyle={{color: '#fff',}} style={{marginTop: 10,}}>
+            {this.state.num2}
+          </Badge>
+          <Badge textStyle={{color: '#fff',}} style={{marginTop: 10,}}>
+            {this.state.num3}
+          </Badge>
 
-        <Text style={{marginTop: 10, padding: 3,}} onPress={this._addNum}>click to add num(点击增加数字)</Text>
-      </View>
+          <Text style={{marginTop: 10, padding: 3,}} onPress={this._addNum}>click to add num(点击增加数字)</Text>
+    </View>
     )
   }
 
