@@ -78,7 +78,6 @@ export default class Badge extends Component {
   }
 
   _onLayout = (e) => {
-    console.log('_onLayout')
     let width
 
     if(e.nativeEvent.layout.width <= e.nativeEvent.layout.height) {
