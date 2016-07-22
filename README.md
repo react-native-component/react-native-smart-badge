@@ -29,8 +29,6 @@ Install the button from npm with `npm install @react-native-component/react-nati
 Then, require it from your app's JavaScript files with `import Button from '@react-native-component/react-native-smart-badge'`.
 
 ```js
-import Badge from '../../react-native-smart-badge'
-
 export default class NumberBadge extends Component {
 
   // 构造
