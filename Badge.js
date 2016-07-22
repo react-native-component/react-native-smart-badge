@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   text: {
     paddingVertical: 2,
     paddingHorizontal: 4,
-    color: '#007aff',
+    color: '#fff',
     fontFamily: '.HelveticaNeueInterface-MediumP4',
     backgroundColor: 'transparent',
     fontSize: 14,
@@ -71,9 +71,7 @@ export default class Badge extends Component {
                  <Text onLayout={this._onLayout} style={[styles.text, this.props.textStyle]}>{child}</Text>
               )
           }
-          else {
-            return child
-          }
+          return child
       })
   }
 
