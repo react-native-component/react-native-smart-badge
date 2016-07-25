@@ -1,6 +1,6 @@
 {
   "name": "@react-native-component/react-native-smart-badge",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A smart auto-fit badge for React Native apps",
   "main": "Badge.js",
   "scripts": {
