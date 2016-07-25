@@ -31,6 +31,7 @@ import {
 } from 'react-native'
 
 import Badge from 'react-native-smart-badge'
+import Button from 'react-native-smart-button'
 
 export default class NumberBadge extends Component {
 
@@ -58,7 +59,13 @@ export default class NumberBadge extends Component {
             {this.state.num3}
           </Badge>
 
-          <Text style={{marginTop: 10, padding: 3,}} onPress={this._addNum}>click to add num(点击增加数字)</Text>
+          <Button
+            touchableType={'blur'}
+            style={{marginTop: 10, width: 300, justifyContent: 'center', height: 40, backgroundColor: '#00AAEF', borderRadius: 3, borderWidth: StyleSheet.hairlineWidth, borderColor: '#00AAEF', justifyContent: 'center',}}
+            textStyle={{fontSize: 17,  color: 'white'}}
+            onPress={this._addNum}>
+            click to plus num(点击增加数字)
+          </Button>
     </View>
     )
   }
