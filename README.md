@@ -15,20 +15,23 @@ This component is compatible with React Native 0.25 and newer.
 npm install react-native-smart-badge --save
 ```
 
-or
-
-```
-npm install @react-native-component/react-native-smart-badge --save
-```
-
-
-
 ## Usage
 
-Install the button from npm with `npm install @react-native-component/react-native-smart-badge --save`.
-Then, require it from your app's JavaScript files with `import Button from '@react-native-component/react-native-smart-badge'`.
+Install the button from npm with `npm install react-native-smart-badge --save`.
+Then, require it from your app's JavaScript files with `import Badge from 'react-native-smart-badge'`.
 
 ```js
+import React, {
+  Component,
+} from 'react'
+import {
+  StyleSheet,
+  View,
+  Text,
+} from 'react-native'
+
+import Badge from 'react-native-smart-badge'
+
 export default class NumberBadge extends Component {
 
   // 构造
