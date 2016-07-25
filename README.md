@@ -89,7 +89,7 @@ extraPaddingHorizontal | number | Yes      | 10        | determines the value of
 style                  | style  | Yes      |           | see [react-native documents][2]
 textStyle              | style  | Yes      |           | see [react-native documents][3]
 
-[1]: http://cyqresig.github.io/img/react-native-smart-badge-preview-ios-v1.0.2.gif
+[1]: http://cyqresig.github.io/img/react-native-smart-badge-preview-ios-v1.0.7.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
 [3]: https://facebook.github.io/react-native/docs/text.html#style
-[4]: http://cyqresig.github.io/img/react-native-smart-badge-preview-android-v1.0.2.gif
+[4]: http://cyqresig.github.io/img/react-native-smart-badge-preview-android-v1.0.7.gif
