@@ -15,6 +15,10 @@ This component is compatible with React Native 0.25 and newer.
 npm install react-native-smart-badge --save
 ```
 
+## Full Demo
+
+see [ReactNativeComponentDemos][0]
+
 ## Usage
 
 Install the button from npm with `npm install react-native-smart-badge --save`.
@@ -91,6 +95,7 @@ textStyle              | style  | Yes      |           | see [react-native docum
 minHeight              | number | Yes      |           | determines the min-height of badge
 minWidth               | number | Yes      |           | determines the min-width of badge
 
+[0]: https://github.com/cyqresig/ReactNativeComponentDemos
 [1]: http://cyqresig.github.io/img/react-native-smart-badge-preview-ios-v1.0.7.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
 [3]: https://facebook.github.io/react-native/docs/text.html#style
