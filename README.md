@@ -8,7 +8,7 @@
 A smart autofit badge for react-native apps, written in JS for cross-platform support.
 It works on iOS and Android.
 
-This component is compatible with React Native 0.25 and newer.
+This component is compatible with React Native 0.49 and newer.
 
 ## Preview
 
